@@ -1,4 +1,4 @@
-ubody, html {
+body, html {
     height: 100%;
       margin: 0;
       padding: 0;
@@ -8,32 +8,6 @@ ubody, html {
     body, html {
       height: 100%;
       font-family: Arial, sans-serif;
-    }
-
-
- .nav-bar {
-      position: absolute; 
-      top: 0;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 20px 0;
-      background: rgba(0, 0, 0, 0.4);
-      z-index: 2;
-    } 
-
-    .nav-bar a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      padding: 5px 10px;
-      transition: background 0.3s;
-    }
-
-    .nav-bar a:hover {
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 5px;
     }
 
     /* Hero image */
