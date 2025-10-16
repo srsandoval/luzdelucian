@@ -3,7 +3,7 @@ html, body{
     padding;10px;
 }
 .banner-container {
-  max-height: 150px;   
+  max-height: 200px;   
   overflow: hidden;   
   width: 100%;           
 }
