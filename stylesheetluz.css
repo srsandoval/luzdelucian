@@ -2,7 +2,7 @@ html, body{
     height: 100%;
     padding;10px;
 }
-.banner-container img {
+.banner-container {
     width: 100%;
     max-width: 500px;
     height: auto;
