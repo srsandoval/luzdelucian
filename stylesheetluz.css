@@ -1,4 +1,4 @@
-body, html {
+ubody, html {
     height: 100%;
       margin: 0;
       padding: 0;
@@ -39,7 +39,7 @@ body, html {
     /* Hero image */
     .hero-image {
       height: 300px; 
-      background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("jabonesempacados.jpg");
+      background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("espuma.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
