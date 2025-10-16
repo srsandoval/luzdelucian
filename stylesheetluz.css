@@ -1,7 +1,7 @@
 //Todo esto es del banner
 .banner-container {
   position: relative;
-  height: 150px;         /* Make the container taller */
+  height: 80px;         /* Make the container taller */
   width: 100%;           /* Full width */
   overflow: hidden;      /* Crop anything that overflows */
   background-color: #eee; /* Optional: helps you see container */
