@@ -22,6 +22,11 @@ body, html {
       z-index: 2;
     } 
 
+.nav-bar .logo img {
+  height: 50px; /* adjust this number to fit your nav bar */
+  width: auto;  /* keep aspect ratio */
+}
+
     .nav-bar a {
       color: white;
       text-decoration: none;
