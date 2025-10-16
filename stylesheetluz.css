@@ -1,4 +1,4 @@
-
+00
 .banner-container {
   height: 250px;         /* Make the container taller */
   width: 100%;           /* Full width */
@@ -23,7 +23,7 @@
 }
 
 .logo img {
-  height: 40px;
+  height: 100px;
   width: auto;
   padding: 5px 0;
 }
