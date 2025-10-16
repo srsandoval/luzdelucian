@@ -1,6 +1,6 @@
 
 .banner-container {
-  max-height: 250px;   
+  height: 250px;   
   overflow: hidden;   
   width: 100%;           
 }
