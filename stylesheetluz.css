@@ -4,7 +4,8 @@ html, body{
 }
 
 .banner-container img {
-  width: 100%;        /* full width of the container */
-  height: auto;       /* keeps aspect ratio */
-    /* removes unwanted bottom space */
+  width: 100%;       
+  height: auto;
+    display: block;
+    margin: 0 auto;
 }
