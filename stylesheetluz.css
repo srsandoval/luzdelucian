@@ -23,7 +23,7 @@ body, html {
     } 
 
 .nav-bar .logo img {
-  height: 50px; /* adjust this number to fit your nav bar */
+  height: 70px; /* adjust this number to fit your nav bar */
   width: auto;  /* keep aspect ratio */
 }
 
