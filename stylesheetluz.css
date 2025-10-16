@@ -6,7 +6,5 @@ html, body{
 .banner-container img {
   width: 100%;        /* full width of the container */
   height: auto;       /* keeps aspect ratio */
-  max-height: 300px;  /* limits height to 300px */
-  object-fit: cover;  /* crops the image if needed to fill the space */
-  display: block;     /* removes unwanted bottom space */
+    /* removes unwanted bottom space */
 }
