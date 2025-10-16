@@ -38,7 +38,7 @@ ubody, html {
 
     /* Hero image */
     .hero-image {
-      height: 300px; 
+      height: 400px; 
       background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("espuma.jpg");
       background-size: cover;
       background-position: center;
