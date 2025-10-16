@@ -3,12 +3,10 @@ html, body{
     padding;10px;
 }
 
-
 .banner-container img {
-  width:100%;
-  height: 100%;
-    max-width:320px;
-    object-fit:cover;
-    display: block;
-
+  width: 100%;          /* Full width of the container */
+  max-height: 150px;    /* Limit height to 150px */
+  height: auto;         /* Auto height to keep aspect ratio */
+  object-fit: cover;    /* Crop if needed */
+  display: block;       /* Remove bottom gap */
 }
