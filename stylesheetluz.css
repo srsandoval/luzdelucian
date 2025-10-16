@@ -1,4 +1,4 @@
-00
+//Todo esto es del banner
 .banner-container {
   height: 250px;         /* Make the container taller */
   width: 100%;           /* Full width */
@@ -12,7 +12,7 @@
   object-fit: cover;     /* Crop to fill without distortion */
   display: block;
 }
-
+//Barra de navegación
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@
 }
 
 .logo img {
-  height: 100px;
+  height: 40px;
   width: auto;
   padding: 5px 0;
 }
