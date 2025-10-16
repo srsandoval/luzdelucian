@@ -23,7 +23,7 @@
 }
 
 .logo img {
-  height: 60px;
+  height: 40px;
   width: auto;
   padding: 5px 0;
 }
@@ -38,7 +38,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: #fcd29e;
+  color: #917157;
   font-weight: bold;
   transition: color 0.3s;
 }
