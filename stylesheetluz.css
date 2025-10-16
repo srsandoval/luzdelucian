@@ -1,6 +1,6 @@
 
 .banner-container {
-  height: auto;         /* Make the container taller */
+  max-height: 350;         /* Make the container taller */
   width: 100%;           /* Full width */
   overflow: hidden;      /* Crop anything that overflows */
   background-color: #eee; /* Optional: helps you see container */
