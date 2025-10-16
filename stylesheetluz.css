@@ -137,7 +137,7 @@ body, html {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background-color: #ff7f50;
+  background-color: #917157;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -145,7 +145,7 @@ body, html {
 }
 
 .product-card button:hover {
-  background-color: #ff6347;
+  background-color: #6e4028;
   transform: scale(1.05);
 }
 
@@ -198,7 +198,7 @@ body, html {
 /* Iconos */
 .benefit-card i {
   font-size: 2.5rem;
-  color: #ff7f50;
+  color: #917157;
   margin-bottom: 15px;
 }
 
