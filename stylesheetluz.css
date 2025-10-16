@@ -1,12 +1,14 @@
 
 .banner-container {
-  height: 400vh;   
-  overflow: hidden;   
-  width: 100%;           
+  height: 350px;         /* Make the container taller */
+  width: 100%;           /* Full width */
+  overflow: hidden;      /* Crop anything that overflows */
+  background-color: #eee; /* Optional: helps you see container */
 }
+
 .banner-container img {
-  width: 100%;
-  height: 100%;          /* fill container height */
-  object-fit: cover;     /* crop if needed */
+  width: 100%;           /* Full width */
+  height: 100%;          /* Stretch to container height */
+  object-fit: cover;     /* Crop to fill without distortion */
   display: block;
 }
