@@ -215,5 +215,55 @@ body, html {
   font-size: 0.95rem;
   text-align: center;
 }
+//Newsletter//
+
+.newsletter {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #ffefeb; /* color suave para destacar */
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.newsletter p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* Formulario */
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #917157;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.newsletter-form button:hover {
+  background-color: #6e4028;
+  transform: scale(1.05);
+}
 
 
