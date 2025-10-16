@@ -7,6 +7,6 @@ html, body{
   width:100%;
   height: auto;
     display: block;
-    max-width: 320px;
+    max-width: auto;
     margin: 0 auto;
 }
