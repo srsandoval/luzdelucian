@@ -30,6 +30,39 @@ body, html {
       padding: 5px 10px;
       transition: background 0.3s;
     }
+//CSS para pagina shop//
+.shop-banner {
+  background-image: linear-gradient(rgba(251, 234, 211, 0.5), rgba(251, 234, 211, 0.5)), url("espuma.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px; /* altura del banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #6e4028; /* color del texto principal */
+}
+
+.shop-banner h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.shop-banner p {
+  font-size: 1rem;
+  color: #917157; /* color secundario de tu paleta */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .shop-banner h1 {
+    font-size: 1.5rem;
+  }
+  .shop-banner p {
+    font-size: 0.9rem;
+  }
+}
+
 
     .nav-bar a:hover {
       background: rgba(255, 255, 255, 0.2);
