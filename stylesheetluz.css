@@ -307,48 +307,50 @@ body, html {
   color: #6e4028;  /* color hover de botones, armoniza con la paleta */
   text-align: center;
 }
-
-
-
-.page-header {
-  background-color: #F8F4EF;
+.modern-banner {
+  position: relative;
+  background-image: url("espuma.jpg"); /* natural texture or product image */
+  background-size: cover;
+  background-position: center;
+  height: 180px; /* short banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 90px 20px 70px 20px;
-  border-bottom: 1px solid #E0D6C5;
+  margin: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* soft shadow */
+  overflow: hidden;
 }
 
-.header-content {
-  max-width: 800px;
-  margin: 0 auto;
+.modern-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.3); /* subtle overlay for readability */
+  z-index: 0;
 }
 
-.header-logo {
-  width: 85px;
-  margin-bottom: 15px;
-  opacity: 0.9;
+.modern-banner-text {
+  position: relative;
+  z-index: 1;
 }
 
-.page-header h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.8rem;
-  color: #5C4A35;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
+.modern-banner h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6e4028;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2); /* text shadow for depth */
 }
 
-.header-divider {
-  width: 60px;
-  height: 2px;
-  background-color: #C7A67A; /* tono dorado cálido */
-  margin: 15px auto 20px auto;
-  border-radius: 2px;
-}
-
-.page-header p {
-  font-family: 'Poppins', sans-serif;
-  color: #7A6E5E;
-  font-size: 1.05rem;
-  letter-spacing: 0.4px;
+.modern-banner p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #917157;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 .navbar {
