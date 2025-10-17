@@ -36,9 +36,6 @@ body, html {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 5px;
     }
-
-
-    /* Hero image */
     .hero-image {
       height: 400px; 
       background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("jabonesempacados.jpg");
@@ -148,8 +145,8 @@ body, html {
 
 .product-card img {
   width: 100%;
-  height: 300px;       /* altura fija */
-  object-fit: cover;   /* recorta la imagen sin deformarla */
+  height: 400px;      
+  object-fit: cover;   
   border-radius: 8px;
   margin-bottom: 15px;
 }
@@ -166,7 +163,7 @@ body, html {
   text-align: center;
 }
 
-/* Grid de beneficios */
+
 .benefits-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -175,7 +172,7 @@ body, html {
   margin: 0 auto;
 }
 
-/* Tarjeta individual */
+
 .benefit-card {
   background-color: white;
   padding: 25px 20px;
@@ -199,7 +196,7 @@ body, html {
   margin-bottom: 15px;
 }
 
-/* Títulos y párrafos */
+
 .benefit-card h3 {
   margin-bottom: 10px;
   font-size: 1.2rem;
@@ -230,7 +227,7 @@ body, html {
   text-align: center;
 }
 
-/* Formulario */
+
 .newsletter-form {
   display: flex;
   justify-content: center;
@@ -273,7 +270,7 @@ body, html {
   width: 100%;
 }
 
-/* Contenedor de columnas */
+
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -310,7 +307,7 @@ body, html {
   transform: scale(1.2);
 }
 
-/* Última línea del footer */
+
 .footer-bottom {
   margin-top: 30px;
   font-size: 0.85rem;
@@ -318,7 +315,7 @@ body, html {
   text-align: center;
 }
 
-/*Shop*/
+
 
 .shop-banner {
   background-image: linear-gradient(rgba(251, 234, 211, 0.5), rgba(251, 234, 211, 0.5)), url("espuma.jpg");
@@ -342,7 +339,7 @@ body, html {
   color: #917157; /* color secundario de tu paleta */
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .shop-banner h1 {
     font-size: 1.5rem;
@@ -351,7 +348,6 @@ body, html {
     font-size: 0.9rem;
   }
 
-/*Shop navigation */
 
 .navbar {
   background-color: #F2D1A2;
