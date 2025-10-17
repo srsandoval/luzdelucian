@@ -466,11 +466,8 @@ body, html {
   transform: scale(1.05);
 }
 
-
-@media (max-width: 768px) {
-  .productcard img {
-    height: 250px; 
-  }
+.productos {
+      background-color: #F2D1A2;
 }
 
 
