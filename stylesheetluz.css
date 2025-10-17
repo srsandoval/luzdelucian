@@ -266,4 +266,58 @@ body, html {
   transform: scale(1.05);
 }
 
+//footer//
+
+/* Fondo y texto general */
+.site-footer {
+  background-color: #FCD29E; /* fondo suave de la paleta */
+  color: #6e4028;            /* texto principal */
+  padding: 40px 20px 20px 20px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Contenedor de columnas */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+.footer-section a {
+  color: #917157; /* color principal de botones */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #6e4028; /* hover igual que botones */
+}
+
+.social-icons a {
+  color: #917157;  /* iconos en color de botones */
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.social-icons a:hover {
+  color: #6e4028;  /* hover igual que botones */
+  transform: scale(1.2);
+}
+
+/* Última línea del footer */
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 0.85rem;
+  color: #6e4028;  /* color hover de botones, armoniza con la paleta */
+  text-align: center;
+}
 
