@@ -320,6 +320,8 @@ body, html {
   align-items: center;
   text-align: center;
   color: #6e4028; /* color del texto principal */
+  margin:20px;
+  padding: 20px;
 }
 
 .shop-banner h1 {
