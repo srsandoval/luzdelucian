@@ -439,4 +439,11 @@ body, html {
   line-height: 1.6;
   margin-bottom: 15px;
 }
+.about-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-container.reverse .about-text {
+  text-align: left;
+}
 
