@@ -108,13 +108,6 @@ body, html {
   align-items: center;
 }
 
-.product-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
 .product-card h3 {
   margin: 10px 0 5px 0;
   font-size: 1.2rem;
