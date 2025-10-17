@@ -346,8 +346,8 @@ body, html {
 .navbar {
   background-color: #F2D1A2;
   position: absolute;
-  top: 100px;
-  padding: 10px 40px;
+  top: 150px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -361,7 +361,7 @@ body, html {
 }
 
 .logo {
-  height: 60px; /* Ajusta el tamaño de tu logo */
+  height: 60px; 
   width: auto;
 }
 
