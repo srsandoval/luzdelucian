@@ -310,36 +310,45 @@ body, html {
 
 
 
-.shop-banner {
-  background-image: linear-gradient(rgba(251, 234, 211, 0.5), rgba(251, 234, 211, 0.5)), url("espuma.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.page-header {
+  background-color: #F8F4EF;
   text-align: center;
-  color: #6e4028; 
+  padding: 90px 20px 70px 20px;
+  border-bottom: 1px solid #E0D6C5;
 }
 
-.shop-banner h1 {
-  font-size: 2rem;
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 85px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.page-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  color: #5C4A35;
   margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
-.shop-banner p {
-  font-size: 1rem;
-  color: #917157; /* color secundario de tu paleta */
+.header-divider {
+  width: 60px;
+  height: 2px;
+  background-color: #C7A67A; /* tono dorado cálido */
+  margin: 15px auto 20px auto;
+  border-radius: 2px;
 }
 
-
-@media (max-width: 768px) {
-  .shop-banner h1 {
-    font-size: 1.5rem;
-  }
-  .shop-banner p {
-    font-size: 0.9rem;
-  }
+.page-header p {
+  font-family: 'Poppins', sans-serif;
+  color: #7A6E5E;
+  font-size: 1.05rem;
+  letter-spacing: 0.4px;
 }
 
 .navigation-bar {
