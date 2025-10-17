@@ -224,12 +224,14 @@ body, html {
 .newsletter h2 {
   font-size: 2rem;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .newsletter p {
   font-size: 1rem;
   margin-bottom: 25px;
   color: #555;
+  text-align: center;
 }
 
 /* Formulario */
