@@ -351,20 +351,12 @@ body, html {
   letter-spacing: 0.4px;
 }
 
-.navigation-bar {
-      position: relative;
-      width:100%;
-}
-
-
 .navbar {
-  background-color: #F2D1A2;
-  position: relative;
-  top: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 40px;
+  background-color: #F2D1A2;
 }
 
 .nav-left {
@@ -373,42 +365,41 @@ body, html {
   gap: 30px;
 }
 
-.logo {
-  height: 60px; 
+.nav-left .logo img {
+  height: 60px;
   width: auto;
-  padding-left: 20px;
 }
 
-.navbar ul {
+.nav-links {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   gap: 25px;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar li { display: inline-block; }
-
-.navbar a {
+.nav-links li a {
   text-decoration: none;
   color: #6e4028;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
-.navbar a:hover { color: #917157; }
+.nav-links li a:hover {
+  color: #917157;
+}
 
 .nav-right a {
   color: #6e4028;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   margin-left: 20px;
   transition: color 0.3s ease;
-  gap: 15px;
-  margin-right: 20px;
 }
 
-.nav-right a:hover { color: #917157; }
+.nav-right a:hover {
+  color: #917157;
+}
 
 .about-section {
   background-color: #FBEAD3;
