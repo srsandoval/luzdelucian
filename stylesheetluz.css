@@ -400,9 +400,10 @@ body, html {
 .productgrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px; /* space between cards */
+  gap: 20px;
   max-width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto; /* should center the grid */
+  padding: 30px 20px;
 }
 
 
@@ -465,8 +466,9 @@ body, html {
 }
 
 .productos {
-      background-color: #FBEAD3;
-      padding: 40px 20px;
+  background-color: #FBEAD3;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 
