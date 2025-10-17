@@ -268,15 +268,12 @@ body, html {
 
 /* Fondo y texto general */
 .site-footer {
-  background-color: #FCD29E; /* fondo suave de la paleta */
-  color: #6e4028;            /* texto principal */
+  background-color: #FCD29E;
+  color: #6e4028;         
   padding: 40px 20px 20px 20px;
   text-align: center;
   font-size: 0.95rem;
-  position: relative;        /* importante para layout normal */
-  bottom: 0;
-  width: 100%;
-}
+
 
 /* Contenedor de columnas */
 .footer-container {
