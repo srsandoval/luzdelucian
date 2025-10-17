@@ -351,7 +351,6 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
 }
 
 .nav-left {
@@ -363,6 +362,7 @@ body, html {
 .logo {
   height: 60px; 
   width: auto;
+  padding-left: 20px;
 }
 
 .navbar ul {
