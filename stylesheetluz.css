@@ -350,3 +350,54 @@ body, html {
   .shop-banner p {
     font-size: 0.9rem;
   }
+
+/*Shop navigation */
+
+.navbar {
+  background-color: #F2D1A2;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left section (logo + links) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  height: 60px; /* Ajusta el tamaño de tu logo */
+  width: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar li { display: inline-block; }
+
+.navbar a {
+  text-decoration: none;
+  color: #6e4028;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover { color: #917157; }
+
+.nav-right a {
+  color: #6e4028;
+  font-size: 1.3em;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-right a:hover { color: #917157; }
