@@ -314,13 +314,12 @@ body, html {
   background-image: linear-gradient(rgba(251, 234, 211, 0.5), rgba(251, 234, 211, 0.5)), url("espuma.jpg");
   background-size: cover;
   background-position: center;
-  height: 250px; /* altura del banner */
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #6e4028; /* color del texto principal */
-  margin:20px;
+  color: #6e4028; 
   padding: 20px;
 }
 
