@@ -352,7 +352,6 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 10;
 }
 
 .nav-left {
@@ -468,6 +467,7 @@ body, html {
 
 .productos {
       background-color: #FBEAD3;
+      margin-top: 40px;
 }
 
 
