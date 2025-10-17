@@ -345,12 +345,13 @@ body, html {
 
 .navbar {
   background-color: #F2D1A2;
-  position: absolute;
-  top: 250px;
+  position: sticky;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 
 .nav-left {
