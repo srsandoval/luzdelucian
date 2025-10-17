@@ -391,7 +391,7 @@ body, html {
   margin-left: 20px;
   transition: color 0.3s ease;
   gap: 15px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-right a:hover { color: #917157; }
