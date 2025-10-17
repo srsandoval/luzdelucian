@@ -342,6 +342,10 @@ body, html {
   }
 }
 
+.navigation-bar {
+      position: relative;
+}
+
 
 .navbar {
   background-color: #F2D1A2;
