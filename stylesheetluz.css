@@ -449,3 +449,164 @@ body, html {
   text-align: left;
 }
 
+/* ===== Preguntas Frecuentes ===== */
+.faq-section {
+background-color: #fff8f0;
+padding: 60px 20px;
+text-align: center;
+}
+
+.faq-section h2 {
+color: #6e4028;
+font-size: 2rem;
+margin-bottom: 30px;
+font-family: "Poppins", sans-serif;
+}
+
+.faq-item {
+background-color: #ffffff;
+max-width: 800px;
+margin: 0 auto 20px auto;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+text-align: left;
+transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+transform: translateY(-4px);
+box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.faq-item h3 {
+color: #917157;
+margin-bottom: 10px;
+font-size: 1.1rem;
+}
+
+.faq-item p {
+color: #555;
+font-size: 0.95rem;
+line-height: 1.6;
+}
+
+/* ===== Sección de Contacto ===== */
+.contact-section {
+background-color: #FBEAD3;
+padding: 60px 20px;
+text-align: center;
+}
+
+.contact-section h2 {
+color: #6e4028;
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.contact-section p {
+color: #917157;
+margin-bottom: 25px;
+font-size: 1rem;
+}
+
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px 15px;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 1rem;
+font-family: inherit;
+outline: none;
+transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+border-color: #917157;
+box-shadow: 0 0 8px rgba(145, 113, 87, 0.2);
+}
+
+.contact-form button {
+background-color: #917157;
+color: white;
+border: none;
+padding: 14px;
+border-radius: 8px;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+background-color: #6e4028;
+transform: scale(1.05);
+}
+
+/* ===== Redes Sociales ===== */
+.social-section {
+background-color: #fff8f0;
+text-align: center;
+padding: 60px 20px;
+}
+
+.social-section h2 {
+color: #6e4028;
+font-size: 2rem;
+margin-bottom: 25px;
+font-family: "Poppins", sans-serif;
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+
+.social-icon {
+font-size: 2rem;
+border-radius: 50%;
+padding: 12px;
+background-color: #ffffff;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Colores personalizados */
+.social-icon.instagram {
+color: #f2a1a1;
+}
+
+.social-icon.facebook {
+color: #f2d1a2;
+}
+
+.social-icon.tiktok {
+color: #000000;
+}
+
+/* Efecto hover */
+.social-icon:hover {
+transform: scale(1.15);
+box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.social-icon.instagram:hover { color: #e38e8e; }
+.social-icon.facebook:hover { color: #e2b77f; }
+.social-icon.tiktok:hover { color: #333; }
+
+@media (max-width: 768px) {
+.faq-item, .contact-form {
+width: 90%;
+}
+}
+
