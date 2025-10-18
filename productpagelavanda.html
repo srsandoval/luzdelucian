@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Luz de Lucián</title>
+    <link rel="stylesheet" href="stylesheetluz.css">
+    <script src="https://kit.fontawesome.com/9f9f0ebe1b.js" crossorigin="anonymous"></script>
+  <body>
+<section class="modern-banner">
+  <div class="modern-banner-text">
+    <h1>Cuidado Artesanal</h1>
+  </div>
+</section>
+<nav class="navbar">
+  <div class="nav-left">
+    <a href="index.html" class="logo"><img src="logonuevo.png" alt="Logo"></a>
+    <ul class="nav-links">
+      <li><a href="shop.html">Productos</a></li>
+      <li><a href="aboutus.html">Conócenos</a></li>
+      <li><a href="contact.html">Contáctanos</a></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+    <a href="#"><i class="fa fa-user"></i></a>
+  </div>
+</nav>
+<section class="product-page">
+  <div class="product-gallery">
+    <div class="carousel">
+      <img src="lavanda1.jpg" class="active" alt="Jabón artesanal blanco y lila">
+      <img src="lavanda2.jpg" alt="Jabón artesanal con flores">
+      <img src="lavanda3.jpg" alt="Jabón floral">
+    </div>
+    <div class="carousel-controls">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </div>
 
+  <div class="product-info">
+    <h1>Jabón Lavanda Luz</h1>
+    <p class="price">$8.00</p>
+    <p class="description">
+      Relajate y suaviza tu piel con 
+      la delicada fragancia de la lavanda. Este jabón artesanal 
+      calma los sentidos y deja una sensación fresca y tranquilizante.
+    </p>
+    <p>
+        <h3>Ingredientes:</h3>
+          <ul>
+          <li>Aceite de oliva</li>
+          <li>Aceite de coco</li>
+          <li>Manteca de cacao</li>
+          <li>Flor de lavanda</li>
+          <li>Agua destilada</li>
+          <li>Sosa Cáustica</li>
+          <li>Aceite esencial de lavanda</li>
+       </ul>
+    </p>
+    <div class="cart-actions">
+      <input type="number" value="1" min="1">
+      <button class="add-to-cart">Añadir al carrito</button>
+    </div>
+  </div>
+</section>
+
+<script>
+const images = document.querySelectorAll('.carousel img');
+let index = 0;
+document.querySelector('.next').onclick = () => {
+  images[index].classList.remove('active');
+  index = (index + 1) % images.length;
+  images[index].classList.add('active');
+};
+document.querySelector('.prev').onclick = () => {
+  images[index].classList.remove('active');
+  index = (index - 1 + images.length) % images.length;
+  images[index].classList.add('active');
+};
+</script>
+
+<section class="related-products">
+  <h2>Explora más</h2>
+  <div class="related-grid">
+    <div class="related-card">
+      <img src="favorito3.jpg" alt="Jabón de Rosa">
+      <h3>Aura Detox</h3>
+      <a href="productpagedetox.html"><button>Ver producto</button></a>
+    </div>
+    <div class="related-card">
+      <img src="honeysoap.jpg" alt="Jabón de Miel">
+      <h3>Honey, Honey!</h3>
+      <a href="productpagehoney.html"><button>Ver producto</button></a>
+    </div>
+    <div class="related-card">
+      <img src="jabonvioleta.jpg" alt="Jabón de Café">
+      <h3>Hibiscus Tropical</h3>
+      <a href="productpagehibiscus.html"><button>Ver producto</button></a>
+    </div>
+  </div>
+</section>
+
+  <br>
+  <br>
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Información de contacto -->
+    <div class="footer-section">
+      <h3>Contacto</h3>
+      <p>Email: info@luzdelucian.com</p>
+      <p>Teléfono: (787)-222-3333</p>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="footer-section">
+      <h3>Síguenos</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+
+    <!-- Enlaces rápidos -->
+    <div class="footer-section">
+      <h3>Enlaces</h3>
+      <a href="index.html">Inicio</a><br>
+      <a href="shop.html">Productos</a><br>
+      <a href="aboutus.html">Conócenos</a><br>
+      <a href="contact.html">Contáctanos</a>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2025 Luz de Lucián. Todos los derechos reservados.</p>
+</footer>
+  </body>
+</html>
