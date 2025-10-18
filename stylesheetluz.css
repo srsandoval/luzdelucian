@@ -740,7 +740,7 @@ width: 90%;
 
 .related-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -764,7 +764,7 @@ width: 90%;
 
 .related-card img {
   width: 100%;
-  height: 250px;
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
