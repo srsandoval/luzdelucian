@@ -7,6 +7,7 @@ addToCartButtons.forEach(button => {
       id: button.dataset.id,
       name: button.dataset.name,
       price: parseFloat(button.dataset.price)
+       image: button.dataset.image 
     };
     
     addToCart(product); // Llamamos a la función que maneja el carrito
