@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Informes - Panel Administrativo</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>Luz de Lucián — Panel Administrativo</header>
+<div class="container">
+  <h2>Borrar o Inactivar Producto</h2>
+  <form>
+    <label>ID del producto:</label>
+    <input type="text" value="00123" readonly>
+    <label>Nombre:</label>
+    <input type="text" value="Jabón de Lavanda" readonly>
+    
+    <button style="background-color:#a34b4b;">Eliminar</button>
+    <button style="background-color:#b08b63;">Inactivar</button>
+  </form>
+  <p><small>⚠️ Confirmar antes de eliminar. Los productos inactivos no serán visibles al público.</small></p>
+</div>
+
