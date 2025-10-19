@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedidos - Panel Administrativo</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <header>Luz de Lucián — Panel Administrativo</header>
+
+  <div class="container">
+    <h2>Consulta de Pedidos</h2>
+    <form>
+      <label>Cliente:</label>
+      <input type="text" placeholder="Nombre del cliente">
+      <label>Estado:</label>
+      <select>
+        <option>Todos</option>
+        <option>Pendiente</option>
+        <option>Enviado</option>
+        <option>Entregado</option>
+      </select>
+      <button>Buscar</button>
+    </form>
+
+    <table>
+      <tr>
+        <th># Pedido</th>
+        <th>Cliente</th>
+        <th>Fecha</th>
+        <th>Estado</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>00125</td>
+        <td>María López</td>
+        <td>17/10/2025</td>
+        <td>Entregado</td>
+        <td>$42.00</td>
+      </tr>
+      <tr>
+        <td>00126</td>
+        <td>Carla Rivera</td>
+        <td>18/10/2025</td>
+        <td>Pendiente</td>
+        <td>$31.50</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
