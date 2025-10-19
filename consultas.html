@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Informes - Panel Administrativo</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>Luz de Lucián — Panel Administrativo</header>
+<div class="container">
+  <h2>Búsqueda de Productos</h2>
+  <form>
+    <label>Buscar por nombre:</label>
+    <input type="text" placeholder="Ej. Lavanda">
+    <label>Categoría:</label>
+    <select>
+      <option>Todos</option>
+      <option>Jabones</option>
+      <option>Velas</option>
+      <option>Accesorios</option>
+    </select>
+    <button>Buscar</button>
+  </form>
+
+  <table>
+    <tr>
+      <th>ID</th><th>Producto</th><th>Categoría</th><th>Precio</th><th>Estado</th>
+    </tr>
+    <tr>
+      <td>00123</td><td>Lavanda Luz</td><td>Jabones</td><td>$8.00</td><td>Activo</td>
+    </tr>
+    <tr>
+      <td>00125</td><td>Vela Dulce Avena</td><td>Velas</td><td>$9.00</td><td>Inactivo</td>
+    </tr>
+  </table>
+</div>
