@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Informes - Panel Administrativo</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <header>Luz de Lucián — Panel Administrativo</header>
+
+  <div class="container">
+    <h2>Informes del Sistema</h2>
+
+    <h3>Informe de Resumen Simple</h3>
+    <p>Genera un resumen general de ventas y actividad del sistema.</p>
+    <table>
+      <tr><th>Mes</th><th>Ventas Totales</th><th>Pedidos</th><th>Clientes Nuevos</th></tr>
+      <tr><td>Septiembre</td><td>$845.00</td><td>42</td><td>8</td></tr>
+      <tr><td>Octubre</td><td>$910.50</td><td>47</td><td>10</td></tr>
+    </table>
+
+    <h3 style="margin-top:25px;">Informes con Parámetros</h3>
+    <form>
+      <label>Desde:</label>
+      <input type="date">
+      <label>Hasta:</label>
+      <input type="date">
+      <label>Categoría de Producto:</label>
+      <select>
+        <option>Todos</option>
+        <option>Jabones</option>
+        <option>Velas</option>
+        <option>Accesorios</option>
+      </select>
+      <button>Generar Informe</button>
+    </form>
+  </div>
+</body>
+</html>
