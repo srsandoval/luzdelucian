@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Registro - Panel Administrativo</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>Luz de Lucián — Panel Administrativo</header>
+
+  <div class="container">
+    <h2>Editar Producto</h2>
+    <form>
+      <label>ID del producto:</label>
+      <input type="text" value="00123" readonly>
+
+      <label>Nombre del producto:</label>
+      <input type="text" value="Jabón de Lavanda">
+
+      <label>Descripción:</label>
+      <textarea>Suave jabón artesanal con aroma relajante de lavanda.</textarea>
+
+      <label>Precio:</label>
+      <input type="number" value="6.00">
+
+      <label>Categoría:</label>
+      <select>
+        <option selected>Jabones</option>
+        <option>Velas</option>
+        <option>Accesorios</option>
+      </select>
+
+      <button>Actualizar Producto</button>
+    </form>
+  </div>
+</body>
+</html>
